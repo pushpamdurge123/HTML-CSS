@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    border: 1px solid black;
+    padding: 5px;
+    /*margin: 5px;*/
+}
+.main{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    /*padding: 5px;*/
+}
+.main-content{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /*padding: 5px;*/
+}
+.main-content-cont1{
+    width: 100%;
+    height: 50%;
+    /*border: 1px solid black;*/
+    background-image: url(iphone.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-content-cont2{
+    width: 100%;
+    height: 50%;
+    /*border: 1px solid black;*/
+}
+.heading{
+    width: 100%;
+    height: 20%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.heading-cont{
+    width: 100%;
+    height: 60%;
+    /*border: 1px solid black;*/
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spec-body{
+    width: 90%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    /*border: 1px solid black;*/
+}
+li{
+    list-style:disc;
+}
+.button{
+    width: 100%;
+    height: 20%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color:blue ;
+    color: white;
+}
+</style>
+
+<body>
+    <div class="d1">
+        <div class="main">
+        <div class="main-content">
+            <div class="main-content-cont1"></div>
+            <div class="main-content-cont2">
+                <div class="heading"><p>Specifications:</p></div>
+                <div class="heading-cont">
+                    <ul class="spec-body">
+                        <li>3 GB RAM</li>
+                        <li>5.80 Super Retina HD OLED Display</li>
+                        <li>Front Camera 7MP</li>
+                        <li>Rear Camera 12MP+12MP</li>
+                        <li>Apple A11 Bionic Processor</li>
+                        <li>Battery Capacity 2716mAH</li>
+
+                    </ul>
+                </div>
+                <div class="button">
+                    <button>Buy Now</button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+</html>

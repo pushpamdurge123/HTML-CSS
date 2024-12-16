@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+.d1{
+    width: 100%;
+    height: 100%;
+    background-image: url(audi.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.matter{
+    width: 94%;
+    height: 30%;
+    /*border: 1px solid white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding: 5px;*/
+    margin: 5px;
+}
+.matter-left{
+    width: 40%;
+    height: 100%;
+    /*border: 1px solid white;*/
+}
+.matter-right{
+    width: 60%;
+    height: 100%;
+    /*border: 1px solid white;*/
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+}
+.heading{
+    width: 100%;
+    height: 50%;
+    /*border: 1px solid white;*/
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+    display: flex;
+}
+.heading-cont{
+    width: 100%;
+    height: 50%;
+    /*border: 1px solid white;*/
+    color: white;
+    padding: 5px;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+.matter-bottom{
+    width: 94%;
+    height: 70%;
+    /*border: 1px solid white;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.speed-logo{
+    width: 200px;
+    height: 200px;
+    /*border: 1px solid white;*/
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.logo-top{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid white;*/
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-name{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid white;*/
+    color: rgb(1, 249, 249);
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+</style>
+
+<body>
+    <div class="d1">
+        <div class="matter">
+            <div class="matter-left"></div>
+            <div class="matter-right">
+                <div class="heading">
+                    <p>An Audi can be a truly one
+                         person's dream CAR</p>
+
+                </div>
+                <div class="heading-cont">
+                    <p>On the internet, chatting is talking to other people who are using the internet at the same time you are.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="matter-bottom">
+            <div class="speed-logo">
+                <div class="logo-top">
+                    <img src="speedlogo.png">
+                </div>
+                <div class="logo-name"><p style="margin-right: 14px;">Speed</p></div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ 
+*{
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(128, 234, 128);
+}
+.nav-cont1{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    /*border: 1px solid black;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.nav-img{
+    width: 10%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.search{
+    height: 100%;
+    width: 100%;
+    /*border: 1px solid black;*/
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-text{
+    height: 100%;
+    width: 100%;
+    /*border: 1px solid black;*/
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input-bar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+input{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(216, 229, 234);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color:darkgrey;
+    border: none;
+}
+.nav-list{
+    width: 70%;
+    height: 100%;
+    background-color:white;
+    /*border: 1px solid black;*/
+}
+.h-nav{
+    width: 100%;
+    height: 100%;
+}
+.h-nav-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+.h-nav-items{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h-nav-list{
+    color: rgb(75, 69, 69);
+    text-decoration: none;
+}
+.h-nav-list:hover{
+    color: red;
+}
+.main-content-cont{
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-wrapped-cont1{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.inner-cont1{
+    width: 80%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.my-card{
+    width:10%;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    /*background-color: palegreen;*/
+    color: black;
+    font-size: 15px;
+    /*border: 1px solid red;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-wrapped-cont2{
+    width: 100%;
+    height: 70%;
+    background-color:white;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin: 5px;
+    padding: 5px;
+}
+.heading-inner-cont2{
+    width: 100%;
+    height: 20%;
+    padding: 5px;
+    margin: 5px;
+    /*border: 1px solid black;*/
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 20px;
+}
+.inner-cont2{
+    width: 100%;
+    height: 80%;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.my-card1{
+    width:200px;
+    height:200px;
+    margin: 5px;
+    padding: 5px;
+    /*background-color: palegreen;*/
+    color: black;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .nav-cont1{
+    margin-top: 5px;
+    }
+    .nav-img{
+        width: 50%;
+        display: flex;
+        justify-content:flex-start;
+    }
+    .nav-list{
+    width: 50%;
+    }
+    .h-nav-items{
+        font-size: 13px;
+    }
+    .search{
+        height: 10%;
+        margin-top: 5px;
+    }
+    .nav-text{
+        width: 95%;
+        height: 60%;
+    }
+    input{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+</style>
+<body>
+    
+    <div class="d1">
+        <nav class="nav-cont1">
+
+            <div class="nav-img">
+                <img src="flipnavimage.svg">
+            </div>
+
+            <div class="search">
+            <div class="nav-text">
+                <div class="input-bar">
+                    <input type="text" placeholder="Search for Products,Brands and More">
+                </div>
+            </div>
+        </div>
+
+            <div class="nav-list">
+                <div class="h-nav">
+
+                    <ul class="h-nav-cont">
+
+                        <li class="h-nav-items">
+                            <a class="h-nav-list" href="#">Login</a>
+                        </li>
+
+                        <li class="h-nav-items">
+                            <a class="h-nav-list" href="#">Cart</a>
+                        </li>
+                        
+                        <li class="h-nav-items">
+                            <a class="h-nav-list" href="#">Become a seller</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+
+    <div class="main-content-cont">    
+            <div class="card-wrapped-cont1">
+                <div class="inner-cont1">
+                <div class="my-card">
+                    <br><img src="groceryflip.webp" style="width:80px; height:80px"><br>
+                
+                    <p>Grocery</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="mobileflip.webp" style="width:80px; height:80px"><br>
+                
+                    <p>Mobiles</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="fashionflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Fashion</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="electronicsflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Electronics</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="furnitureflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Home & Furniture</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="appliancesflip.webp" style="width:80px; height:80px"><br>
+                
+                    <p>Appliances</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="travelflip.webp" style="width:80px; height:80px"><br>
+                
+                    <p>Travel</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="toysflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Beauty,Toys & More</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="twowheelerflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Two Wheelers</p><br>
+                </div>
+
+            </div> 
+            </div>
+
+            <div class="card-wrapped-cont2"><h3 class="heading-inner-cont2" style="text-align: left;">Best of Electronics</h3>
+                <div class="inner-cont2">
+                    <div class="my-card1">
+                        <br><br><img src="wirelessflip.webp" style="width:80px; height:80px"><br>
+                    
+                        <p>Best Truewireless Headphones</p><br>
+                        <b>Grab Now</b>
+                    </div>
+                    <div class="my-card1">
+                        <br><br><img src="speakersflip.webp" style="width:80px; height:80px"><br>
+                    
+                        <p>Best Selling Mobile Speakers</p><br>
+                        <b>From Rs.499*</b>
+                    </div>
+                    <div class="my-card1">
+                        <br><br><img src="shaversflip.webp" style="width:80px; height:80px"><br>
+                    
+                        <p>Best of Shavers</p><br>
+                        <b>From Rs.1,649</b>
+                    </div>
+                    <div class="my-card1">
+                        <br><br><img src="fastrackflip.webp" style="width:80px; height:80px"><br>
+                    
+                        <p>Fastrack Smartwatches</p><br>
+                        <b>From Rs.1,399</b>
+                    </div>
+                    <div class="my-card1">
+                        <br><br><img src="monitorsflip.webp" style="width:80px; height:80px"><br>
+                    
+                        <p>Monitors</p><br>
+                        <b>From Rs.6,599</b>
+                    </div>
+                    <div class="my-card1">
+                        <br><br><img src="boatflip.webp" style="width:80px; height:80px"><br>
+                    
+                        <p>boAt Smartwatches</p><br>
+                        <b>From Rs.1,099</b>
+                    </div>
+                    <div class="my-card1">
+                        <br><br><img src="printersflip.webp" style="width:80px; height:80px"><br>
+                    
+                        <p>Printers</p><br>
+                        <b>From Rs.2,336</b>
+                    </div>
+                    
+                </div>
+            </div>
+        
+    </div>
+    </div>
+</body>
+</html>

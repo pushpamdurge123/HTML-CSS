@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(249, 115, 66, 0.968);
+    /*border: 1px solid black;*/
+    padding:10px;
+    /*margin: 5px;*/
+}
+.body-cont{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    /*padding: 10px;*/
+    /*margin: 5px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content-cont-1{
+    width: 100%;
+    height: 35%;
+    /*border: 1px solid black;*/
+    /*margin-bottom: 5px;*/
+    /*padding: 5px;*/
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dory-nemo-cont{
+    width: 100%;
+    height: 100%;
+    background-image: url(dorynemo.jpg);
+    background-position: center;
+    background-size: cover;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+}
+.main-content-cont-2{
+    width: 100%;
+    height: 30%;
+    /*border: 1px solid black;*/
+    /*margin-top: 5px;*/
+    /*padding: 5px;*/
+}
+.content-heading{
+    height: 20%;
+    /*border: 1px solid black;*/
+    /*margin-bottom: 5px;*/
+    display: flex;
+}
+.heading{
+    width: 60%;
+    /*border: 1px solid black;*/
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+.watch-now{
+    width: 40%;
+    /*border: 1px solid black;*/
+    /*margin-left: 5px;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    color:darkorange;
+}
+.content-para{
+    height: 80%;
+    /*border: 1px solid black;*/
+    color: white;
+    text-align: left;
+    font-size: 14px;
+}
+.main-content-cont-3{
+    width: 100%;
+    height: 35%;
+    /*border: 1px solid black;*/
+    /*margin-bottom: 5px;*/
+    /*padding: 5px;*/
+}
+.similar{
+    width: 100%;
+    height: 20%;
+    color:white;
+    font-size: 20px;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.images-cont{
+    width: 100%;
+    height: 80%;
+    /*border: 1px solid black;*/
+    display: flex;
+    /*margin-top: 5px;*/
+}
+.images-cont-1{
+    width: 300px;
+    height: 140px;
+    /*border: 1px solid black;*/
+    border-radius: 15px;
+    background-image: url(dory.jpg);
+    background-position: center;
+    background-size:cover ;
+    margin: 5px;
+}
+.images-cont-2{
+    width: 300px;
+    height: 140px;
+    /*border: 1px solid black;*/
+    border-radius: 15px;
+    background-image: url(bugs.jpg);
+    background-position: center;
+    background-size:cover ;
+    margin: 5px;
+}
+.images-cont-3{
+    width: 300px;
+    height: 140px;
+    /*border: 1px solid black;*/
+    border-radius: 15px;
+    background-image: url(rata.jpg);
+    background-position: center;
+    background-size:cover ;
+    margin: 5px;
+}
+</style>
+<body>
+    <div class="d1">
+        <div class="body-cont">
+        <div class="main-content-cont-1">
+            <div class="dory-nemo-cont"></div>
+        </div>
+        <div class="main-content-cont-2">
+            <div class="content-heading">
+                <div class="heading"><p>Finding Nemo</p></div>
+                <div class="watch-now">
+                    <button>Watch Now</button>
+                </div>
+            </div><br>
+            <div class="content-para">
+                <p>
+                    A clown fish,is overly cautious with his son. Nemo, who has a foreshortened fin. When Nemo swims too close to the surface to prove himself,he is caught by a diver and horrified Marlin must set out to find him. A blue reef fish named Dory joins Marlin and complicate the the encounters with sharks, jellyfish and a host of ocean dangers. Meanwhile, Nemo plots his escape from a dentist's fish tank.                </p>
+            </div>
+        </div>
+        <div class="main-content-cont-3">
+            <div class="similar"><p>Similar Movies</p></div>
+            <div class="images-cont">
+                <div class="images-cont-1"></div>
+                <div class="images-cont-2"></div>
+                <div class="images-cont-3"></div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+</html>

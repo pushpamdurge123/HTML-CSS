@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: lightblue;
+}
+.nav-bar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-cont{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.profile-cont{
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+}
+.profile-icon{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+</style>
+<body>
+    <div class="d1">
+        <nav class="nav-bar">
+
+            <a href="#">
+                <img src="jas.png" width="80px">
+            </a>
+
+            <ul class="nav-cont">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+
+            <div class="profile-cont">
+                <div class="profile-icon">P</div>
+                
+                <div>
+                <p>Update Profile</p>
+                <p>Settings</p>
+                </div>
+
+            </div>
+
+        </nav>
+    </div>
+</body>
+</html>

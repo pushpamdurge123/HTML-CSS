@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(190, 190, 225);
+    padding: 10px;
+    display: flex;
+}
+.main-cont{
+    width: 100%;
+    height: 100%;
+    /*background-color: orange;*/
+    /*border: 1px solid black;*/
+    /*padding: 5px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-cont-left{
+    width: 90%;
+    height: 100%;
+    /*background-color: cadetblue;*/
+    color: white;
+    /*border: 1px solid black;*/
+    /*margin: 5px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-cont-right{
+    width: 10%;
+    height: 100%;
+    background-color:rgb(243, 171, 37);
+    color: white;
+    /*border: 1px solid black;*/
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.lc-top{
+    width: 100%;
+    height: 60%;
+    /*background-color: chocolate;*/
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lc-top-left{
+    width: 70%;
+    height: 100%;
+    background-color:rgb(243, 171, 37);
+    /*border: 1px solid black;*/
+    margin: 5px;
+    padding: 5px;
+}
+.lc-top-right{
+    width: 30%;
+    height: 100%;
+    /*background-color: cornflowerblue;*/
+    /*border: 1px solid black;*/
+    margin: 5px;display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lc-top-right-top{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(243, 171, 37);
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.lc-top-right-bottom{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(243, 171, 37);
+    padding: 5px;
+}
+.lc-bottom{
+    width: 100%;
+    height: 40%;
+    /*background-color: chocolate;*/
+    /*border: 1px solid black;*/
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    overflow: hidden;
+}
+.lc-bottom-left{
+    width: 40%;
+    height: 100%;
+    /*background-color: green;*/
+    /*border: 1px solid black;*/
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.lc-bottom-left-top{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(243, 171, 37);
+    margin: 2px;
+    padding: 5px;
+}
+.lc-bottom-left-bottom{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(243, 171, 37);
+    margin: 2px;
+    padding: 5px;
+}
+.lc-bottom-right{
+    width: 60%;
+    height: 100%;
+    /*background-color: green;*/
+    /*border: 1px solid black;*/
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lc-bottom-right-child1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(243, 171, 37);
+    margin: 2px;
+    display: flex;
+    padding: 5px;
+}
+.lc-bottom-right-child2{
+    width: 100%;
+    height: 50%;
+    /*background-color: pink;*/
+    margin: 2px;
+    display: flex;
+}
+.lc-bottom-right-childs-1{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(243, 171, 37);
+    margin: 2px;
+    padding: 5px;
+}
+
+
+</style>
+<body>
+    <div class="d1">
+        <div class="main-cont">
+            <div class="main-cont-left">
+                <div class="lc-top">
+                    <div class="lc-top-left">Image 1</div>
+                    <div class="lc-top-right">
+                        <div class="lc-top-right-top">Image 2</div>
+                        <div class="lc-top-right-bottom">Image 3</div>
+
+                    </div>
+
+                </div>
+                <div class="lc-bottom">
+                    <div class="lc-bottom-left">
+                        <div class="lc-bottom-left-top">Image 4</div>
+                        <div class="lc-bottom-left-bottom">Image 6</div>
+
+                    </div>
+                    <div class="lc-bottom-right">
+                        <div class="lc-bottom-right-child1">Image 5</div>
+                        <div class="lc-bottom-right-child2">
+                            <div class="lc-bottom-right-childs-1">Image 8</div>
+                            <div class="lc-bottom-right-childs-1">Image 9</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="main-cont-right">Image 7</div>
+        </div>
+    </div>
+</body>
+</html>

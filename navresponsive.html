@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    }
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: darkgray;
+}
+.h-nav-cont{
+    width: 100%;
+    list-style: none;
+    /*border: 1px solid red;*/
+    text-align: center;
+    margin-top: 15px;
+}
+.h-nav{
+    padding:10px;
+}
+.h-nav:hover{
+    background-color: lightgray;
+}
+@media (min-width:1024px) {
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+    .h-nav-cont{
+        width: 70%;
+        display: flex;
+        /*border: 1px solid black;*/
+    }   
+}
+</style>
+<body>
+    <div class="d1">
+        <nav>
+            <img src="jas.png" width="100px">
+
+            <ul class="h-nav-cont">
+
+                <li class="h-nav">
+                    <a href="#">Home</a>
+                </li>
+                <li class="h-nav">
+                    <a href="#">About</a>
+                </li>
+                <li class="h-nav">
+                    <a href="#">Services</a>
+                </li>
+                <li class="h-nav">
+                    <a href="#">Domain</a>
+                </li>
+                <li class="h-nav">
+                    <a href="#">Courses</a>
+                </li>
+                <li class="h-nav">
+                    <a href="#">Commities</a>
+                </li>
+                <li class="h-nav">
+                    <a href="#">Library</a>
+                </li>
+                <li class="h-nav">
+                    <a href="#">Infra</a>
+                </li>
+                <li class="h-nav">
+                    <a href="#">Contact Us</a>
+                </li>
+                <li class="h-nav">
+                    <a href="#">Help</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

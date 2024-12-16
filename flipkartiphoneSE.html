@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ 
+*{
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    /*background-color: rgb(128, 234, 128);*/
+}
+.nav-cont1{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*padding: 10px;*/
+    margin-top: 5px;
+}
+.nav-img{
+    width: 50%;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.nav-list{
+    width: 50%;
+    background-color:white;
+    /*border: 1px solid black;*/
+}
+.h-nav{
+    width: 100%;
+}
+.h-nav-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+.h-nav-items{
+    font-size: 13px;
+}
+.h-nav-list{
+    color: rgb(75, 69, 69);
+    text-decoration: none;
+}
+.h-nav-list:hover{
+    color: red;
+}
+.search{
+    width: 100%;
+    height: 10%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.nav-text{
+    width: 95%;
+    height: 60%;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input-bar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+input{
+    width: 100%;
+    background-color: rgb(216, 229, 234);
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    color:darkgrey;
+    border: none;
+}
+
+.main-content-cont{
+    width: 100%;
+    height: 80%;
+    background-color: lightgrey;
+    /*padding: 5px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-wrapped-cont1{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    /*border: 1px solid black;*/
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.inner-cont1{
+    display: inline-block;
+}
+.my-card{
+    display: inline-block;
+    width:150px;
+    height: 100px;
+    text-align: center;
+    margin-top:10px;
+    /*background-color: palegreen;*/
+    color: black;
+    font-size: 15px;
+    /*border: 1px solid red;*/
+}
+.card-wrapped-cont2{
+    width: 100%;
+    height: 70%;
+    background-color:rgb(127, 237, 132);
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    /*margin: 5px;*/
+}
+.heading-inner-cont2{
+    width: 93%;
+    height: 10%;
+    /*margin: 5px;*/
+    padding: 5px;
+    /*border: 1px solid black;*/
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.inner-cont2{
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    /*margin: 5px;*/
+    padding: 5px;
+}
+.card-wrapped-cont2::-webkit-scrollbar{
+    width: 12px;
+}
+.card-wrapped-cont2:-webkit-scrollbar-thumb{
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+.inner-cont2{
+    height: 800px;
+}
+.my-card1{
+    width:170px;
+    height:200px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    /*background-color: palegreen;*/
+    color: black;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+</style>
+<body>
+    
+    <div class="d1">
+        <nav class="nav-cont1">
+
+            <div class="nav-img">
+                <img src="flipnavimage.svg">
+            </div>
+
+            <div class="nav-list">
+                <div class="h-nav">
+
+                    <ul class="h-nav-cont">
+
+                        <li class="h-nav-items">
+                            <a class="h-nav-list" href="#">Login</a>
+                        </li>
+
+                        <li class="h-nav-items">
+                            <a class="h-nav-list" href="#">Cart</a>
+                        </li>
+                        
+                        <li class="h-nav-items">
+                            <a class="h-nav-list" href="#">Become a seller</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+        <div class="search">
+            <div class="nav-text">
+                <div class="input-bar">
+                    <input type="text" placeholder="Search for Products,Brands and More">
+                </div>
+            </div>
+        </div>
+
+    <div class="main-content-cont">    
+            <div class="card-wrapped-cont1">
+                <div class="inner-cont1">
+                <div class="my-card">
+                    <br><img src="groceryflip.webp" style="width:80px; height:80px"><br>
+                
+                    <p>Grocery</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="mobileflip.webp" style="width:80px; height:80px"><br>
+                
+                    <p>Mobiles</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="fashionflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Fashion</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="electronicsflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Electronics</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="furnitureflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Home & Furniture</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="appliancesflip.webp" style="width:80px; height:80px"><br>
+                
+                    <p>Appliances</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="travelflip.webp" style="width:80px; height:80px"><br>
+                
+                    <p>Travel</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="toysflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Beauty,Toys & More</p><br>
+                </div>
+                <div class="my-card">
+                    <br><img src="twowheelerflip.png" style="width:80px; height:80px"><br>
+                
+                    <p>Two Wheelers</p><br>
+                </div>
+
+            </div> 
+            </div>
+
+            <div class="card-wrapped-cont2"><h3 class="heading-inner-cont2" style="text-align: left;">Best of Electronics</h3>
+                <div class="inner-cont2">
+                    <div class="my-card1">
+                        <br><img src="wirelessflip.webp" style="width:80px; height:80px"><br><br>
+                    
+                        <p style="text-align: left;">Best Truewireless Headphones</p><br>
+                        <p style="text-align: left;">Grab Now</p>
+                    </div>
+                    <div class="my-card1">
+                        <br><img src="speakersflip.webp" style="width:80px; height:80px"><br><br>
+                    
+                        <p style="text-align: left;">Best Selling Mobile Speakers</p><br>
+                        <p style="text-align: left;">From Rs.499*</p>
+                    </div>
+                    <div class="my-card1">
+                        <br><img src="shaversflip.webp" style="width:80px; height:80px"><br><br>
+                    
+                        <p style="text-align: left;">Best of Shavers</p><br>
+                        <p style="text-align: left;">From Rs.1,649</p>
+                    </div>
+                    <div class="my-card1">
+                        <br><img src="fastrackflip.webp" style="width:80px; height:80px"><br><br>
+                    
+                        <p style="text-align: left;">Fastrack Smartwatches</p><br>
+                        <p style="text-align: left;">From Rs.1,399</p>
+                    </div>
+                    <div class="my-card1">
+                        <br><img src="monitorsflip.webp" style="width:80px; height:80px"><br><br>
+                    
+                        <p style="text-align: left;">Monitors</p><br>
+                        <p style="text-align: left;">From Rs.6,599</p>
+                    </div>
+                    <div class="my-card1">
+                        <br><img src="boatflip.webp" style="width:80px; height:80px"><br><br>
+                    
+                        <p style="text-align: left;">boAt Smartwatches</p><br>
+                        <p style="text-align: left;">From Rs.1,099</p>
+                    </div>
+                    <div class="my-card1">
+                        <br><img src="printersflip.webp" style="width:80px; height:80px"><br><br>
+                    
+                        <p style="text-align: left;">Printers</p><br>
+                        <p style="text-align: left;">From Rs.2,336</p>
+                    </div>
+                    
+                </div>
+            </div>
+        
+    </div>
+    </div>
+</body>
+</html>

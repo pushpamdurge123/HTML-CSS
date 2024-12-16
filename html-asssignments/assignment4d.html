@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    /*padding: 5px;*/
+}
+.main-content{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    /*padding: 5px;*/
+    /*margin: 5px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content-top{
+    width: 100%;
+    height: 40%;
+    /*border: 1px solid black;*/
+    background-image: url(studybg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-icon{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content-bottom{
+    width: 100%;
+    height: 60%;
+    /*border: 1px solid white;*/
+    background-color:rgb(52, 18, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-content{
+    width: 90%;
+    height: 80%;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 5px;
+}
+.bottom-container{
+    width: 100%;
+    height: 20%;
+    /*border: 1px solid white;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bottom-content-top{
+    width: 80%;
+    height: 100%;
+    /*border: 1px solid white;*/
+    text-align: left;
+    font-size: 18px;
+    color: white;
+}
+.bottom-content-down{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-body{
+    width: 90%;
+    height: 90%;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.bottom-body-1{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.body-left-1{
+    width: 20%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.body-right-1{
+    width: 80%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-1{
+    width: 100%;
+    height: 30%;
+    /*border: 1px solid black;*/
+    color:black;
+    font-weight: bold;
+    font-size:15px;
+}
+.matter-1{
+    width: 100%;
+    height: 70%;
+    /*border: 1px solid black;*/
+    color: rgb(99, 93, 93);
+    font-size: 13px;
+    margin-top: 5px;
+}
+.bottom-body-2{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.body-left-2{
+    width: 20%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.body-right-2{
+    width: 80%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-2{
+    width: 100%;
+    height: 30%;
+    /*border: 1px solid black;*/
+    color:black;
+    font-weight: bold;
+    font-size:15px;
+}
+.matter-2{
+    width: 100%;
+    height: 70%;
+    /*border: 1px solid black;*/
+    color: rgb(99, 93, 93);
+    font-size: 13px;
+    margin-top: 5px;
+}
+.bottom-body-3{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.body-left-3{
+    width: 20%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.body-right-3{
+    width: 80%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-3{
+    width: 100%;
+    height: 30%;
+    /*border: 1px solid black;*/
+    color:black;
+    font-weight: bold;
+    font-size:15px;
+    margin-top: 5px;
+}
+.matter-3{
+    width: 100%;
+    height: 70%;
+    /*border: 1px solid black;*/
+    color: rgb(99, 93, 93);
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+</style>
+<body>
+    <div class="d1">
+        <div class="main-content">
+            <div class="main-content-top">
+                <div class="image-icon"><img style="width: 50px;height:50px" src="ideabulb.png"></div>
+            </div>
+            <div class="main-content-bottom">
+                <div class="bottom-content">
+                    <div class="bottom-container">
+                    <div class="bottom-content-top">
+                        <p>We design and develop exceptional user experiences across all mediums</p>
+                    </div>
+                </div>
+                    <div class="bottom-content-down">
+                        <div class="bottom-body">
+                            <div class="bottom-body-1">
+                                <div class="body-left-1">
+                                    <img style="width: 40px;height:40px;" src="computer.png">
+                                </div>
+                                <div class="body-right-1">
+                                    <div class="heading-1"><p>Design</p></div>
+                                    <div class="matter-1"><p>UX Design refers to the term User Experience Design, while UI Design stands for User Interface Design.</p></div>
+
+                                </div>
+
+                            </div>
+                            <div class="bottom-body-2">
+                                <div class="body-left-2">
+                                    <img style="width: 40px;height:40px;" src="dropbox.png">
+                                </div>
+                                <div class="body-right-2">
+                                    <div class="heading-2"><p>Elements</p></div>
+                                    <div class="matter-2"><p>Design elements are the fundamentals of all designs: form, shape and movement,etc. Having a solid understanding of which element to use.</p></div>
+                                </div>
+
+                            </div>
+                            <div class="bottom-body-3">
+                                <div class="body-left-3">
+                                    <img style="width: 40px;height:40px;" src="brain.png">
+                                </div>
+                                <div class="body-right-3">
+                                    <div class="heading-3"><p>Support</p></div>
+                                    <div class="matter-3"><p>Design for support is a methodology using a model-based architecture to optimize.</p></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

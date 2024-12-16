@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(210, 210, 234);
+    padding: 10px;
+}
+
+.main-cont{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    padding: 5px;
+}
+.main-cont-top{
+    width: 100%;
+    height: 20%;
+    /*background-color: lightcoral;*/
+    /*border: 1px solid black;*/
+    /*padding: 5px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(33, 187, 238);
+    /*border: 1px solid black;*/
+    margin: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight:normal;
+}
+.navigation{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(67, 163, 67);
+    /*border: 1px solid black;*/
+    margin: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight:normal;
+}
+.main-cont-center{
+    width: 100%;
+    height: 70%;
+    /*background-color: lightgrey;*/
+    /*border: 1px solid black;*/
+    /*padding: 5px;*/
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center-left{
+    width:30%;
+    height: 100%;
+    background-color:rgb(86, 226, 86);
+    margin-right: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:normal;
+}
+.center-right{
+    width: 70%;
+    height: 100%;
+    /*background-color: yellowgreen;*/
+    /*margin: 5px;*/
+    /*padding: 5px;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.center-right-top{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(18, 158, 204);
+    margin-bottom: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:normal;
+}
+.center-right-bottom{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(15, 108, 139);
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight:normal;
+}
+.main-cont-bottom{
+    width: 100%;
+    height: 10%;
+    /*background-color: lightcoral;*/
+    /*padding: 5px;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(33, 187, 238);
+    /*border: 1px solid black;*/
+    margin: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight:normal;
+}
+
+</style>
+<body>
+    
+    <div class="d1">
+
+        <div class="main-cont">
+            
+            <div class="main-cont-top">
+                <div class="header">Header</div>
+                <div class="navigation">Navigation</div>
+            </div>
+            
+            <div class="main-cont-center">
+                <div class="center-left">Aside</div>
+                <div class="center-right">
+                    <div class="center-right-top">Content</div>
+                    <div class="center-right-bottom">Section</div>
+                </div>
+            </div>
+            
+            <div class="main-cont-bottom">
+                <div class="footer">Footer</div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

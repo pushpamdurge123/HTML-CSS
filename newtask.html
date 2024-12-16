@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    padding: 10px;
+}
+.main-cont{
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+.main-cont-top{
+    width: 100%;
+    height: 20%;
+    background-color:rgb(120, 120, 195);
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box1{
+    height: 100%;
+    width: 100%;
+    background-color: chartreuse;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    text-align:left;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(210, 24, 24);
+    color: white;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+.ups{
+    width: 60%;
+    height: 100%;
+    color: black;
+    font-size: x-large;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    align-items: center; 
+}
+.box2{
+    height: 100%;
+    width: 100%;
+    background-color: chartreuse;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.box3{
+    height: 100%;
+    width: 100%;
+    background-color: chartreuse;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.main-cont-bottom{
+    width: 100%;
+    height: 80%;
+    background-color:rgb(120, 120, 195);
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-cont-bottom-sidebar{
+    width: 20%;
+    height: 100%;
+    background-color: chocolate;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sidebar-box1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(78, 78, 236);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.sidebar-box2{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(78, 78, 236);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.sidebar-box3{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(78, 78, 236);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.main-cont-bottom-body{
+    width: 80%;
+    height: 100%;
+    background-color: chocolate;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.body-box1{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.body-box1-title{
+    width: 100%;
+    height: 100%;
+    background-color: chartreuse;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.body-box1-view{
+    width: 100%;
+    height: 100%;
+    background-color: chartreuse;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.body-box2{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.body-box2-content1{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(90, 216, 90);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.body-box2-content2{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(90, 216, 90);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+</style>
+<body>
+    <div class="d1">
+        
+        <div class="main-cont">
+            <div class="main-cont-top">
+                <div class="box1">
+                    <div class="icon">A</div>
+                    <div class="ups">
+                        <p>Update Profile</p>
+                        <p>Settings</p>
+                    </div>
+
+                </div>
+                <div class="box2"></div>
+                <div class="box3">
+                    <div class="input"></div>
+                    <div class="button"></div>
+                </div>
+
+            </div>
+            <div class="main-cont-bottom">
+                <div class="main-cont-bottom-sidebar">
+                    <div class="sidebar-box1"></div>
+                    <div class="sidebar-box2"></div>
+                    <div class="sidebar-box3"></div>
+
+                </div>
+                <div class="main-cont-bottom-body">
+                    <div class="body-box1">
+                        <div class="body-box1-title"></div>
+                        <div class="body-box1-view"></div>
+
+                    </div>
+                    <div class="body-box2">
+                        <div class="body-box2-content1"></div>
+                        <div class="body-box2-content2"></div>
+
+                    </div>
+
+                </div>
+
+                <div></div>
+            </div>
+
+            
+        </div>
+
+    </div>
+</body>
+</html>
